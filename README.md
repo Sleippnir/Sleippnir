@@ -20,7 +20,7 @@ Project outlines are not the final products for proprietary and confidential mot
 A comprehensive initiative to design and implement a structured, company-wide documentation repository using Microsoft SharePoint Online. The project was designed to mitigate operational risks, improve efficiency, and provide a scalable foundation to support significant company expansion.
 
 * **Skills Demonstrated:** Program Management, SharePoint Architecture, Information Architecture, Stakeholder Management, Change Management, Migration Planning.
-* **[View Project Artifacts](./sharepoint-repository-project/)**
+* **[View Project Artifacts](./sharepoint-repository-project)**
 
 ### Automated Invoice Processing Pipeline (GCP & Document AI)
 
