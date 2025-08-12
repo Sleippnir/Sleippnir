@@ -16,7 +16,7 @@ Holds a **Master's in Computer Science** and **PMP certification**, leading cros
 
 ---
 
-## 🚀 Featured Technical Programs *(Proof of Execution)*
+##  Featured Technical Programs *(Proof of Execution)*
 
 Case studies of **end-to-end technical programs** I’ve designed and delivered.  
 Artifacts are **redacted** for proprietary reasons — each demonstrates my thought process and execution strategy.
@@ -26,7 +26,7 @@ A company-wide documentation repository on **Microsoft SharePoint Online** to mi
 
 **Skills:** Program Management · SharePoint Architecture · Information Architecture · Stakeholder Engagement · Change Management · Migration Planning  
 **Impact:** Reduced document retrieval time by ~60%, improved compliance readiness  
-📄 [View Project Artifacts]([./sharepoint-repository-project/](https://github.com/Sleippnir/sharepoint-repository-project))  
+📄 [View Project Artifacts](https://github.com/Sleippnir/sharepoint-repository-project)
 
 ---
 
@@ -39,7 +39,7 @@ A **serverless, event-driven pipeline** on **Google Cloud Platform** to automate
 
 ---
 
-## 🎯 Strategic Design & Frameworks *(Proof of Vision)*
+##  Strategic Design & Frameworks *(Proof of Vision)*
 
 Conceptual and strategic work tackling **large-scale, ambiguous challenges** with an emphasis on ethics, scalability, and human-centered design.
 
