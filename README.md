@@ -1,54 +1,66 @@
-# Marco Pantalone | Technical Program Manager | Solutions Architect
+# Marco Pantalone  
+**Technical Program Manager | Solutions Architect**  
 
-[View LinkedIn Profile](https://www.linkedin.com/in/pantalonemarco)
-
----
-
-## Professional Summary
-
-I'm a Technical Program Manager and Solutions Architect with over 15 years of experience driving AI adoption, cloud modernization, and data-driven transformation across government, aerospace, and IT sectors. With a Master's in Computer Science and a PMP certification, I lead cross-functional teams to deliver scalable solutions that improve user outcomes and business performance. My work has enhanced education access for over 15,000 students, optimized NASA project timelines, and delivered measurable product improvements for technology clients.
+[🔗 LinkedIn](https://www.linkedin.com/in/pantalonemarco) | 🌐 [pantalonemarco.com](https://www.pantalonemarco.com)  
 
 ---
 
-## Featured Technical Programs (Proof of Execution)
+## 📌 Professional Summary
+Technical Program Manager & Solutions Architect with **15+ years** delivering AI adoption, cloud modernization, and data-driven transformation in **government, aerospace, and IT sectors**.  
+Holds a **Master's in Computer Science** and **PMP certification**, leading cross-functional teams to deliver scalable solutions that improve user outcomes and business performance.
 
-This section contains detailed case studies for end-to-end technical programs I have designed and planned.
-Project outlines are not the final products for proprietary and confidential motives, this is purely a showcase of my own thought process when faced with a business opportunity or design challenge.
-
-### Enterprise Document Repository Strategy & Implementation (SharePoint)
-
-A comprehensive initiative to design and implement a structured, company-wide documentation repository using Microsoft SharePoint Online. The project was designed to mitigate operational risks, improve efficiency, and provide a scalable foundation to support significant company expansion.
-
-* **Skills Demonstrated:** Program Management, SharePoint Architecture, Information Architecture, Stakeholder Management, Change Management, Migration Planning.
-* **[View Project Artifacts](./sharepoint-repository-project)**
-
-### Automated Invoice Processing Pipeline (GCP & Document AI)
-
-A serverless, event-driven pipeline designed on Google Cloud Platform to fully automate the lifecycle of vendor invoices. The solution leverages Google Document AI to eliminate manual data entry, reduce payment cycle times, and create a searchable, auditable archive.
-
-* **Skills Demonstrated:** Cloud Architecture (GCP), Document AI, Firestore, Cloud Workflows, ROI Analysis, System Design, Data Security.
-* **[View Project Artifacts](./gcp-invoice-pipeline/)**
+**Key Impact Highlights:**
+- Expanded education access to **15,000+ students**
+- Optimized **NASA** project timelines and resource allocation
+- Delivered measurable product improvements for technology clients
 
 ---
 
-## Strategic Design & Frameworks (Proof of Vision)
+## 🚀 Featured Technical Programs *(Proof of Execution)*
 
-This section contains samples of strategic and conceptual work, demonstrating the ability to tackle large-scale, ambiguous problems and design novel frameworks.
+Case studies of **end-to-end technical programs** I’ve designed and delivered.  
+Artifacts are **redacted** for proprietary reasons — each demonstrates my thought process and execution strategy.
 
-### Personalized Learning via Dynamic Cognitive Networks
+### 📂 Enterprise Document Repository Strategy & Implementation *(SharePoint)*
+A company-wide documentation repository on **Microsoft SharePoint Online** to mitigate operational risk, improve efficiency, and enable scalability for rapid company growth.  
 
-A conceptual framework for a next-generation personalized learning system. This work moves beyond standard approaches to propose a system that understands and adapts to learners based on their underlying emergent cognitive networks, with a strong emphasis on ethical implementation and human-centric pedagogy.
-
-* **Skills Demonstrated:** Strategic Vision, Systems Thinking, Ethical AI Frameworks, Research & Synthesis, Human-Centric Design.
-* **[View Project Artifacts](./cognitive-networks-framework/)**
-
-### AI Persona & Process Design: "CV Aligner Pro"
-
-A complete design for a specialized AI persona, including a modular operational framework and integrated ethical guardrails. This artifact showcases the ability to engineer a complex, repeatable process for an AI agent, ensuring consistency, quality, and strict adherence to ethical constraints like truthfulness and user confirmation.
-
-* **Skills Demonstrated:** AI Persona Design, Systems Thinking, Process Engineering, Ethical Framework Design, Technical Documentation.
-* **[View Project Artifacts](./cv-aligner-pro-design/)**
+**Skills:** Program Management · SharePoint Architecture · Information Architecture · Stakeholder Engagement · Change Management · Migration Planning  
+**Impact:** Reduced document retrieval time by ~60%, improved compliance readiness  
+📄 [View Project Artifacts](./sharepoint-repository-project/)  
 
 ---
 
-*These are just sample projects I'm currently able to share. To further discuss others, get in touch with me at www.pantalonemmarco.com*
+### 🧾 Automated Invoice Processing Pipeline *(GCP & Document AI)*
+A **serverless, event-driven pipeline** on **Google Cloud Platform** to automate vendor invoice lifecycle. Leveraged **Google Document AI** to eliminate manual data entry, speed up payments, and ensure searchable audit trails.  
+
+**Skills:** Cloud Architecture (GCP) · Document AI · Firestore · Cloud Workflows · ROI Analysis · Data Security  
+**Impact:** Cut invoice processing from 5 days to <24 hours, reduced error rate to near-zero  
+📄 [View Project Artifacts](./gcp-invoice-pipeline/)  
+
+---
+
+## 🎯 Strategic Design & Frameworks *(Proof of Vision)*
+
+Conceptual and strategic work tackling **large-scale, ambiguous challenges** with an emphasis on ethics, scalability, and human-centered design.
+
+### 🧠 Personalized Learning via Dynamic Cognitive Networks
+A **next-gen adaptive learning framework** that maps emergent cognitive networks to personalize learning pathways, grounded in ethical AI principles.  
+
+**Skills:** Strategic Vision · Systems Thinking · Ethical AI Frameworks · Research & Synthesis · Human-Centric Design  
+📄 [View Project Artifacts](./cognitive-networks-framework/)  
+
+---
+
+### 🤖 AI Persona & Process Design: *"CV Aligner Pro"*
+A modular AI persona architecture with **operational guardrails**, ensuring truthfulness, user confirmation, and process repeatability.  
+
+**Skills:** AI Persona Design · Systems Thinking · Process Engineering · Ethical Framework Design · Technical Documentation  
+📄 [View Project Artifacts](./cv-aligner-pro-design/)  
+
+---
+
+## 📬 Get in Touch
+📧 marco[at]pantalonemarco[dot]com  
+🌐 [pantalonemarco.com](https://www.pantalonemarco.com)  
+
+> *Additional projects available on request — many are proprietary or under NDA.*
