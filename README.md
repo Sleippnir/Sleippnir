@@ -26,7 +26,7 @@ A company-wide documentation repository on **Microsoft SharePoint Online** to mi
 
 **Skills:** Program Management · SharePoint Architecture · Information Architecture · Stakeholder Engagement · Change Management · Migration Planning  
 **Impact:** Reduced document retrieval time by ~60%, improved compliance readiness  
-📄 [View Project Artifacts](./sharepoint-repository-project/)  
+📄 [View Project Artifacts]([./sharepoint-repository-project/](https://github.com/MarcoPantalone/sharepoint-repository-project))  
 
 ---
 
@@ -60,7 +60,6 @@ A modular AI persona architecture with **operational guardrails**, ensuring trut
 ---
 
 ## 📬 Get in Touch
-📧 marco[at]pantalonemarco[dot]com  
 🌐 [pantalonemarco.com](https://www.pantalonemarco.com)  
 
 > *Additional projects available on request — many are proprietary or under NDA.*
