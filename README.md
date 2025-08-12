@@ -13,6 +13,7 @@ I'm a Technical Program Manager and Solutions Architect with over 15 years of ex
 ## Featured Technical Programs (Proof of Execution)
 
 This section contains detailed case studies for end-to-end technical programs I have designed and planned.
+Project outlines are not the final products for proprietary and confidential motives, this is purely a showcase of my own thought process when faced with a business opportunity or design challenge.
 
 ### Enterprise Document Repository Strategy & Implementation (SharePoint)
 
