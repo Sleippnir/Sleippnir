@@ -6,7 +6,7 @@
 
 ## Professional Summary
 
-[cite_start]I'm a Technical Program Manager and Solutions Architect with over 15 years of experience driving AI adoption, cloud modernization, and data-driven transformation across government, aerospace, and IT sectors[cite: 1177]. [cite_start]With a Master's in Computer Science and a PMP certification, I lead cross-functional teams to deliver scalable solutions that improve user outcomes and business performance[cite: 1178]. [cite_start]My work has enhanced education access for over 15,000 students, optimized NASA project timelines, and delivered measurable product improvements for technology clients[cite: 1180].
+I'm a Technical Program Manager and Solutions Architect with over 15 years of experience driving AI adoption, cloud modernization, and data-driven transformation across government, aerospace, and IT sectors. With a Master's in Computer Science and a PMP certification, I lead cross-functional teams to deliver scalable solutions that improve user outcomes and business performance. My work has enhanced education access for over 15,000 students, optimized NASA project timelines, and delivered measurable product improvements for technology clients.
 
 ---
 
@@ -48,4 +48,6 @@ A complete design for a specialized AI persona, including a modular operational 
 * **Skills Demonstrated:** AI Persona Design, Systems Thinking, Process Engineering, Ethical Framework Design, Technical Documentation.
 * **[View Project Artifacts](./cv-aligner-pro-design/)**
 
-* These are just sample projects I'm currently able to share, to further discuss others, get in tou with me at www.pantalonemmarco.com
+---
+
+*These are just sample projects I'm currently able to share. To further discuss others, get in touch with me at www.pantalonemmarco.com*
