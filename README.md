@@ -18,7 +18,7 @@ Holds a **Master's in Computer Science** and **PMP certification**, leading cros
 
 ##  Featured Technical Programs *(Proof of Execution)*
 
-Case studies of **end-to-end technical programs** I’ve designed and delivered. All these were run concurrently with other endeavors and are just parts of a larger program strategy. 
+Case studies of **end-to-end technical programs** I’ve designed and delivered. All of these were run concurrently with other endeavors and are just parts of a larger program strategy. 
 Artifacts are **redacted** for proprietary reasons — each demonstrates my thought process and execution strategy.
 
 ### 📂 Enterprise Document Repository Strategy & Implementation *(SharePoint)*
