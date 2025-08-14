@@ -8,7 +8,7 @@ By leveraging **Google Document AI** at the core, the system automates the entir
 
 -   **Business Problem**: Manual invoice processing was slow, expensive, and error-prone, leading to delayed payments and a lack of real-time financial data.
 -   **My Solution**: An automated, "Document AI First" serverless pipeline on GCP that ingests, interprets, validates, and routes invoice data with minimal human intervention.
--   **Core Impact**: The system was projected to reduce monthly processing effort by **~95%** (from 333 hours to 17 hours) and establish a 90% straight-through processing rate, freeing up significant resources and enabling strategic financial benefits[cite: 265, 267].
+-   **Core Impact**: The system was projected to reduce monthly processing effort by **~95%** (from 333 hours to 17 hours) and establish a 90% straight-through processing rate, freeing up significant resources and enabling strategic financial benefits.
 
 ---
 
@@ -30,7 +30,7 @@ The following metrics were established to measure the success and return on inve
 
 The system is designed as a modular, event-driven pipeline using managed GCP services to ensure scalability, resilience, and low operational overhead.
 
-![Data Flow Diagram]([https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0VtYWlsIEluYm94XSAtLT58MS4gSW5nZXN0aW9ufCBCKENsb3VkIFN0b3JhZ2U6IHJhd19pbnZvaWNlcyk7XG4gICAgQiAtLT58Mi4gRXh0cmFjdGlvbnwgQyhEb2N1bWVudCBBSSk7XG4gICAgQyAtLT58RGF0YSBFeHRyYWN0ZWR8IEQoRmlyZXN0b3JlKTtcbiAgICBEIC0tPnwzLiBWYWxpZGF0aW9ufCBEO1xuICAgIEQgLS0-fDQgT3JjaGVzdHJhdGlvbnwgRShDbG91ZCBXb3JrZmxvd3MpO1xuICAgIEUgLS0-IEYoQmlnUXVlcnk6IEFuYWx5dGljcyk7XG4gICAgRSAtLT4gRyhFUlAgU3lzdGVtOiBQYXltZW50KTtcbiAgICBFIC0tPiBIKENsb3VkIFN0b3JhZ2U6IEFyY2hpdmUpO1xuICAgIERbVmFsaWRhdGlvbiBGYWlsdXJlXSAtLT58NS4gRXhjZXB0aW9ufCBJKFB1Yi9TdWIsIEh1bWFuIFJldmlldyk7XG5cbiAgICBzdHlsZSBDIHフィルlDojZDNlYWZkLGstrokeOiMzMzMsZmlsbDpibGFjayxzdHJva2Utd2lkdGg6MnB4O1xuICAgIHN0eWxlIEUgZmlsbDojZDNlYWZkLHN0cm9rZTojMzMzLGZpbGw6YmxhY2ssc3Ryb2tlLXdpZHRoOjJweDsiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ](https://github.com/Sleippnir/Sleippnir/edit/main/gcp-invoice-pipeline/02_Technical_Architecture.md))
+![Data Flow Diagram](https://github.com/Sleippnir/Sleippnir/edit/main/gcp-invoice-pipeline/02_Technical_Architecture.md#2.-Visual-Data-Flow))
 
 **Core Pipeline Stages:**
 1.  **Ingestion**: A Cloud Function, triggered by Pub/Sub notifications from Gmail, saves invoice PDF attachments to a raw Cloud Storage bucket[cite: 52, 53, 54, 55].
