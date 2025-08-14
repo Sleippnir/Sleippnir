@@ -1,0 +1,14 @@
+{
+  "name": "invoice-extraction-function",
+  "version": "1.0.0",
+  "description": "Cloud Function to call Document AI for invoice extraction.",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/documentai": "^8.0.0",
+    "@google-cloud/firestore": "^7.0.0",
+    "@google-cloud/functions-framework": "^3.0.0"
+  },
+  "scripts": {
+    "start": "functions-framework --target=processInvoice"
+  }
+}
