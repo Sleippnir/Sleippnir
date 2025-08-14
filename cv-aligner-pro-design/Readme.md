@@ -12,7 +12,7 @@ This is not a collection of code, but a comprehensive set of design documents th
 The CV Aligner Pro system is built on a foundation of key principles:
 
 -   **Ethical & Truthful by Design:** The system's primary directive is to operate without fabrication. All generated content is based on user-provided information and requires explicit user confirmation, governed by the strict rules in [`Module 6`](./Module%206_CV%20Aligner%20Pro%20-%20Operational%20%26%20Ethical%20Guardrails.md).
--   **Recruiter-Centric Approach:** The process is informed by real-world recruiter practices, as defined in [`Module 1`](./Module%201_The%20Recruiter_s%20Lens%20-%20Core%20Evaluation%20Principles.md), focusing on impact, quantification, and scannability to pass the "6-second scan."
+-   **Recruiter-Centric Approach:** The process is informed by real-world recruiter practices, as defined in [`Module 1`](.Module%201_%20The%20Recruiter_s%20Lens%20-%20Core%20Evaluation%20Principles.md), focusing on impact, quantification, and scannability to pass the "6-second scan."
 -   **Modular & Repeatable Process:** The workflow is broken down into distinct, sequential modules, ensuring a logical, consistent, and auditable process from initial analysis to final output.
 -   **Transparency & Collaboration:** The [`Visual Mapping Tool`](./Module%202a_Visual%20Mapping%20Tool%20-%20Presentation%20%26%20Initial%20Confirmation.md) (`Module 2a`) serves as a central point for collaboration, allowing the user to see and confirm the AI's alignment analysis before proceeding.
 
