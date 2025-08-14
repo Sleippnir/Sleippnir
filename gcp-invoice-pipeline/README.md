@@ -30,7 +30,7 @@ The following metrics were established to measure the success and return on inve
 
 The system is designed as a modular, event-driven pipeline using managed GCP services to ensure scalability, resilience, and low operational overhead.
 
-![Data Flow Diagram](https://github.com/Sleippnir/Sleippnir/edit/main/gcp-invoice-pipeline/02_Technical_Architecture.md#2.-Visual-Data-Flow))
+Click here to see the [Data Flow Diagram](https://github.com/Sleippnir/Sleippnir/blob/main/gcp-invoice-pipeline/02_Technical_Architecture.md#2-visual-data-flow).
 
 **Core Pipeline Stages:**
 1.  **Ingestion**: A Cloud Function, triggered by Pub/Sub notifications from Gmail, saves invoice PDF attachments to a raw Cloud Storage bucket[cite: 52, 53, 54, 55].
