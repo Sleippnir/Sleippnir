@@ -1,0 +1,53 @@
+# A simplified example of a Cloud Workflow to orchestrate the final steps.
+# This workflow is triggered after the invoice has been validated.
+
+main:
+  params: [event]
+  steps:
+    - init:
+        assign:
+          - firestore_path: ${event.data.message.data.path}
+          - invoice_id: ${event.data.message.data.invoice_id}
+          - vendor_name: ${event.data.message.data.vendor_name}
+          - gcs_raw_path: ${event.data.message.data.gcs_raw_path}
+          - structured_data: ${event.data.message.data.structured_data}
+          - new_file_name: ${vendor_name + "_" + invoice_id + ".pdf"}
+          - archive_bucket: "gs://processed-invoices/"
+    - renameAndMoveFile:
+        call: googleapis.storage.v1.objects.rewrite
+        args:
+          sourceBucket: "raw-invoices"
+          sourceObject: ${gcs_raw_path}
+          destinationBucket: ${archive_bucket}
+          destinationObject: ${new_file_name}
+    - routeData:
+        parallel:
+          - sendToBigQuery:
+              call: googleapis.bigquery.v2.tabledata.insertAll
+              args:
+                projectId: "your-gcp-project-id"
+                datasetId: "finance_analytics"
+                tableId: "invoices"
+                body:
+                  rows:
+                    - json: ${structured_data}
+          - sendToErp:
+              call: http.post
+              args:
+                url: "https://api.your-erp.com/v1/bills"
+                auth:
+                  type: OAuth2
+                body: ${structured_data}
+    - updateStatusCompleted:
+        call: googleapis.firestore.v1.projects.databases.documents.patch
+        args:
+            name: ${firestore_path}
+            updateMask:
+              fieldPaths:
+              - "processing_status"
+            body:
+              fields:
+                processing_status:
+                  stringValue: "completed"
+    - finish:
+        return: "Workflow completed successfully"
