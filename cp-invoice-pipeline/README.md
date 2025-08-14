@@ -1,4 +1,4 @@
-# CAutomated Invoice Processing Pipeline (GCP & Document AI)
+# Automated Invoice Processing Pipeline (GCP & Document AI)
 
 ## 1. Executive Summary
 
