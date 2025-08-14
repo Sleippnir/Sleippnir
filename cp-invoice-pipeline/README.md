@@ -4,10 +4,10 @@
 
 This project showcases the end-to-end design and implementation plan for a serverless, event-driven invoice processing pipeline on Google Cloud Platform (GCP). The solution was architected to solve a critical business problem: the time-consuming, error-prone, and costly manual processing of vendor invoices.
 
-By leveraging **Google Document AI** at the core, the system automates the entire lifecycle from ingestion via email to data extraction, validation, and final routing to ERP and analytics systems[cite: 7, 10]. This approach eliminates manual data entry, dramatically reduces payment cycle times, and creates a fully auditable, searchable digital archive of all invoices[cite: 8].
+By leveraging **Google Document AI** at the core, the system automates the entire lifecycle from ingestion via email to data extraction, validation, and final routing to ERP and analytics systems. This approach eliminates manual data entry, dramatically reduces payment cycle times, and creates a fully auditable, searchable digital archive of all invoices.
 
 -   **Business Problem**: Manual invoice processing was slow, expensive, and error-prone, leading to delayed payments and a lack of real-time financial data.
--   **My Solution**: An automated, "Document AI First" serverless pipeline on GCP that ingests, interprets, validates, and routes invoice data with minimal human intervention[cite: 10, 18].
+-   **My Solution**: An automated, "Document AI First" serverless pipeline on GCP that ingests, interprets, validates, and routes invoice data with minimal human intervention.
 -   **Core Impact**: The system was projected to reduce monthly processing effort by **~95%** (from 333 hours to 17 hours) and establish a 90% straight-through processing rate, freeing up significant resources and enabling strategic financial benefits[cite: 265, 267].
 
 ---
