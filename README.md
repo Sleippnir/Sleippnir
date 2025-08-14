@@ -51,11 +51,13 @@ A **next-gen adaptive learning framework** that maps emergent cognitive networks
 
 ---
 
-### 🤖 AI Persona & Process Design: *"CV Aligner Pro"*
-A modular AI persona architecture with **operational guardrails**, ensuring truthfulness, user confirmation, and process repeatability.  
+### 🤖 AI Persona & Process Design: "CV Aligner Pro"
+A comprehensive architectural design for a modular AI persona/Agent governed by strict operational and ethical guardrails. This framework details a repeatable, multi-stage process that ensures AI-generated content remains truthful, transparent, and directly aligned with user-confirmed facts.
+
+The system is designed with a "human-in-the-loop" core, emphasizing user validation at every critical step and providing clear, structured methods for handling different tiers of user experience (professional, project-based, and self-assessed). It operationalizes ethical principles by embedding them directly into the process flow, moving from high-level concepts to actionable, verifiable system behaviors.
 
 **Skills:** AI Persona Design · Systems Thinking · Process Engineering · Ethical Framework Design · Technical Documentation  
-📄 [View Project Artifacts](./cv-aligner-pro-design/)  
+📄 [View Project Artifacts](./cv-aligner-pro-design/)
 
 ---
 
