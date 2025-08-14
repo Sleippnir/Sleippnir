@@ -33,7 +33,7 @@ The system is designed as a modular, event-driven pipeline using managed GCP ser
 Click here to see the [Data Flow Diagram](https://github.com/Sleippnir/Sleippnir/blob/main/gcp-invoice-pipeline/02_Technical_Architecture.md#2-visual-data-flow).
 
 **Core Pipeline Stages:**
-1.  **Ingestion**: A Cloud Function, triggered by Pub/Sub notifications from Gmail, saves invoice PDF attachments to a raw Cloud Storage bucket[cite: 52, 53, 54, 55].
+1.  **Ingestion**: A Cloud Function, triggered by Pub/Sub notifications from Gmail, saves invoice PDF attachments to a raw Cloud Storage bucket.
 2.  **Extraction**: Document AI's Invoice Processor automatically reads the PDF and extracts key-value pairs (Vendor, Invoice ID, Totals, Line Items) into a structured format.
 3.  **Validation & Enrichment**: The extracted vendor name is cross-referenced against an approved vendor list in Firestore to append an internal ERP ID.
 4.  **Orchestration & Routing**: A Cloud Workflow orchestrates the final steps: renaming and archiving the PDF, and sending structured data to BigQuery for analytics and the ERP system for payment.
