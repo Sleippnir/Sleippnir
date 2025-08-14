@@ -12,27 +12,27 @@ The following diagram illustrates the end-to-end flow of data through the system
 
 ```mermaid
 graph TD
-    subgraph "1. Ingestion"
+    subgraph "Ingestion"
         A[Email Inbox] -- Gmail API --> B(Pub/Sub) -- Triggers --> C{Cloud Function: Ingest};
         C -- Saves PDF --> D[Cloud Storage: raw-invoices];
         C -- Writes Metadata --> E[Firestore: invoice_metadata];
     end
 
-    subgraph "2. Extraction"
+    subgraph "Extraction"
         D -- Triggers --> F{Cloud Function: Extract};
         F -- Sends PDF Path --> G[(Document AI)];
         G -- Returns JSON --> F;
         F -- Updates with Data --> E;
     end
 
-    subgraph "3. Validation & Enrichment"
+    subgraph "Validation & Enrichment"
         E -- Triggers on Update --> H{Cloud Function: Validate};
         H -- Looks up Vendor --> I[Firestore: canonical_vendors];
         I -- Returns Vendor ID --> H;
         H -- Updates with ID --> E;
     end
 
-    subgraph "4. Orchestration"
+    subgraph "Orchestration"
         E -- Triggers on 'Validated' --> J(Cloud Workflows);
         J -- Moves File --> K[Cloud Storage: processed-invoices];
         J -- Routes Data --> L[BigQuery: Analytics];
@@ -40,14 +40,14 @@ graph TD
         J -- Updates Status to 'Completed' --> E;
     end
 
-    subgraph "5. Exception Handling"
+    subgraph "Exception Handling"
         H -- On Failure --> N[Status: 'needs_review'];
         N -- Triggers --> O{Cloud Function: Notify};
         O -- Pushes Task --> P(Pub/Sub: human-review-queue);
     end
 
     style G fill:#d3eafd,stroke:#333,stroke-width:2px
-    style J fill:#d3eafd,stroke:#333,stroke-width:2px
+    style J fill:#d3eafd,stroke:#333,stroke-width:2px```
 ```
 
 
