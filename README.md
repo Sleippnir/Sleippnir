@@ -21,7 +21,7 @@ Holds a **Master's in Computer Science** and **PMP certification**, leading cros
 Case studies of **end-to-end technical programs** I’ve designed and delivered. All of these were run concurrently with other endeavors and are just parts of a larger program strategy. 
 Artifacts are **redacted** for proprietary reasons — each demonstrates my thought process and execution strategy.
 
-### 📂 Enterprise Document Repository Strategy & Implementation *(SharePoint)*
+### 📂 Enterprise Document Repository Strategy & Implementation *(SharePoint, Program)*
 A company-wide documentation repository on **Microsoft SharePoint Online** to mitigate operational risk, improve efficiency, and enable scalability for rapid company growth.  
 
 **Skills:** Program Management · SharePoint Architecture · Information Architecture · Stakeholder Engagement · Change Management · Migration Planning  
@@ -30,7 +30,7 @@ A company-wide documentation repository on **Microsoft SharePoint Online** to mi
 
 ---
 
-### 🧾 Automated Invoice Processing Pipeline *(GCP & Document AI)*
+### 🧾 Automated Invoice Processing Pipeline *(GCP & Document AI, Project)*
 A **serverless, event-driven pipeline** on **Google Cloud Platform** to automate vendor invoice lifecycle. Leveraged **Google Document AI** to eliminate manual data entry, speed up payments, and ensure searchable audit trails.  
 
 **Skills:** Cloud Architecture (GCP) · Document AI · Firestore · Cloud Workflows · ROI Analysis · Data Security  
