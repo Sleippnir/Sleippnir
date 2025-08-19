@@ -6,8 +6,8 @@
 ---
 
 ##  Professional Summary
-Technical Program Manager & Solutions Architect with **15+ years** delivering AI adoption, cloud modernization, and data-driven transformation in **government, aerospace, and IT sectors**.  
-Holds a **Master's in Computer Science** and **PMP certification**, leading cross-functional teams to deliver scalable solutions that improve user outcomes and business performance.
+Technical Program Manager & Solutions Architect with **15+ years** delivering AI adoption, cloud modernization, and data-driven transformation in **healthcare, government, aerospace, and IT sectors**.  
+Building cross-functional teams to deliver scalable solutions that improve user outcomes and business performance.
 
 **Key Impact Highlights:**
 - Expanded education access to **15,000+ students**
